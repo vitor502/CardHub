@@ -1,53 +1,53 @@
 # CardHub - C.R.U.D.
 
-O **CRUD** para gerenciamento de cartões em PHP permite criar, ler, atualizar e excluir informações sobre cartões de crédito, débito ou fidelidade. Com uma interface amigável, os usuários podem adicionar, visualizar, editar e remover cartões de forma eficiente. Utiliza PHP, MySQL, HTML/CSS, garantindo acessibilidade, ideal para controle de dados.
+The **CRUD** for card management in PHP allows users to create, read, update, and delete information about credit, debit, or loyalty cards. With a user-friendly interface, users can efficiently add, view, edit, and remove cards. It uses PHP, MySQL, HTML/CSS, ensuring accessibility and ideal for data control.
 
-## Descrição do CRUD para Cartões em PHP
+## Description of the PHP Card CRUD
 
-O sistema CRUD (Create, Read, Update, Delete) para gerenciamento de cartões em PHP é uma aplicação web que permite aos usuários gerenciar informações sobre cartões de forma eficiente e intuitiva. O objetivo principal deste sistema é fornecer uma interface simples e funcional para a criação, visualização, edição e exclusão de registros de cartões, que podem incluir cartões de crédito, débito ou fidelidade.
+The CRUD system (Create, Read, Update, Delete) for card management in PHP is a web application that enables users to manage card information efficiently and intuitively. The main goal of this system is to provide a simple and functional interface for creating, viewing, editing, and deleting card records, which can include credit, debit, or loyalty cards.
 
-## Funcionalidades Principais
+## Main Features
 
-### Criar Cartões (Create)
+### Create Cards (Create)
 
-- Permite que os usuários adicionem novos cartões ao sistema, preenchendo informações essenciais como:
-  - Nome do titular
-  - Número do cartão
-  - Data de validade
-  - Código de segurança (CVV)
-  - Tipo de cartão (crédito, débito, fidelidade)
+- Allows users to add new cards to the system by filling in essential information such as:
+  - Cardholder's name
+  - Card number
+  - Expiration date
+  - Security code (CVV)
+  - Card type (credit, debit, loyalty)
 
-Os dados são validados antes de serem salvos no banco de dados, garantindo a integridade das informações.
+The data is validated before being saved to the database, ensuring the integrity of the information.
 
-### Ler Cartões (Read)
+### Read Cards (Read)
 
-- Exibe uma lista de todos os cartões cadastrados no sistema, permitindo que os usuários visualizem informações detalhadas sobre cada cartão. 
-- A interface pode incluir opções de pesquisa e filtragem para facilitar a localização de cartões específicos.
+- Displays a list of all cards registered in the system, allowing users to view detailed information about each card.
+- The interface may include search and filtering options to facilitate locating specific cards.
 
-### Atualizar Cartões (Update)
+### Update Cards (Update)
 
-- Permite que os usuários editem as informações de cartões existentes. 
-- Os usuários podem modificar qualquer detalhe, como o nome do titular, data de validade ou tipo de cartão. 
-- As alterações são salvas no banco de dados após a validação.
+- Allows users to edit the information of existing cards.
+- Users can modify any detail, such as the cardholder's name, expiration date, or card type.
+- Changes are saved to the database after validation.
 
-### Excluir Cartões (Delete)
+### Delete Cards (Delete)
 
-- Oferece a funcionalidade de remover cartões do sistema. 
-- Os usuários podem excluir cartões que não são mais necessários, com uma confirmação prévia para evitar exclusões acidentais.
+- Provides functionality to remove cards from the system.
+- Users can delete cards that are no longer needed, with a confirmation prompt to prevent accidental deletions.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **PHP**: Linguagem de programação do lado do servidor utilizada para construir a lógica da aplicação.
-- **MySQL**: Sistema de gerenciamento de banco de dados que armazena as informações dos cartões.
-- **HTML/CSS**: Tecnologias de marcação e estilo utilizadas para criar a interface do usuário.
-- **JavaScript**: Usado para validações do lado do cliente e para melhorar a experiência do usuário com interações dinâmicas.
+- **PHP**: Server-side programming language used to build the application logic.
+- **MySQL**: Database management system that stores card information.
+- **HTML/CSS**: Markup and styling technologies used to create the user interface.
+- **JavaScript**: Used for client-side validations and to enhance user experience with dynamic interactions.
 
-## Benefícios do Sistema
+## System Benefits
 
-- **Facilidade de Uso**: A interface amigável permite que usuários de diferentes níveis de habilidade gerenciem seus cartões sem complicações.
-- **Segurança**: Implementação de práticas de segurança, como criptografia de dados sensíveis e validação de entrada, para proteger as informações dos usuários.
-- **Acessibilidade**: O sistema pode ser acessado de qualquer lugar com uma conexão à internet, permitindo que os usuários gerenciem seus cartões de forma conveniente.
+- **Ease of Use**: The user-friendly interface allows users of varying skill levels to manage their cards without complications.
+- **Security**: Implementation of security practices, such as encryption of sensitive data and input validation, to protect user information.
+- **Accessibility**: The system can be accessed from anywhere with an internet connection, allowing users to conveniently manage their cards.
 
-## Conclusão
+## Conclusion
 
-O CRUD para gerenciamento de cartões em PHP é uma solução robusta e prática que atende à necessidade de organização e controle de informações sobre cartões. Com suas funcionalidades completas e interface intuitiva, o sistema é ideal para indivíduos e empresas que desejam manter um registro eficiente de seus cartões.
+The CRUD for card management in PHP is a robust and practical solution that meets the need for organization and control of card information. With its comprehensive features and intuitive interface, the system is ideal for individuals and businesses looking to maintain an efficient record of their cards.
